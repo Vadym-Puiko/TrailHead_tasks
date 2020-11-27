@@ -1,3 +1,4 @@
-trigger ExampleTrigger on Contact (before insert) {
+trigger ExampleTrigger on Contact (after insert, after delete) {
 
+   
 }
